@@ -110,9 +110,8 @@ npm install
 npm start
 ```
 
-Visit: http://localhost:3000
+Visit:https://yashbiware.github.io/Asmita-Marathi-Natya-Seva-Sanstha/index.html
 
-**Admin Panel**: http://localhost:3000/admin
 
 ---
 
