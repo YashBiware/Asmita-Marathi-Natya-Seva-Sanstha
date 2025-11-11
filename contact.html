@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-page-title-key="contactTitle">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>संपर्क - अस्मिता मराठी नाट्य सेवा संस्था</title>
+    <link rel="stylesheet" href="theatre-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span data-key="navTitle">Asmita Marathi Natya Seva Sanstha</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-key="home">मुख्य</a></li>
+                <li><a href="about.html" data-key="about">आमच्याबद्दल</a></li>
+                <li><a href="events.html" data-key="events">कार्यक्रम</a></li>
+                <li><a href="gallery.html" data-key="gallery">गॅलरी</a></li>
+                <li><a href="contact.html" class="active" data-key="contact">संपर्क</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn" onclick="switchLanguage('mr')" data-lang="mr">मराठी</button>
+                    <button class="lang-btn active" onclick="switchLanguage('en')" data-lang="en">English</button>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero page-section">
+        <div class="container">
+            <div class="hero-content-center">
+                <h1 data-key="contactHeroTitle">Contact Us</h1>
+                <p data-key="contactHeroSubtitle">Get in touch with us</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- <div class="contact-card email-card">
+                    <div class="contact-icon" style="color:red;">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>Send us your queries and we'll respond quickly</p>
+                    <button class="contact-btn email-btn" onclick="window.open('mailto:asmita.natya@gmail.com', '_blank')">
+                        <i class="fas fa-envelope"></i>
+                        Send Email
+                    </button>
+                </div> -->
+                
+                <div class="contact-card whatsapp-card">
+                    <div class="contact-icon" style="color: green;">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us instantly on WhatsApp</p>
+                    <button class="contact-btn whatsapp-btn" onclick="window.open('https://api.whatsapp.com/send?phone=919424541498', '_blank')">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </button>
+                </div>
+                
+                <div class="contact-card location-card">
+                    <div class="contact-icon" style="color: blue;">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Get Location</h3>
+                    <p>18 Sanwariya Parisar Nanakheda, near mahamrutyunjay dwar Ujjain, MP 456010</p>
+                    <button class="contact-btn location-btn" onclick="window.open('https://api.whatsapp.com/send?phone=919424541498&text=Hello%2C%20I%20would%20like%20to%20visit%20Asmita%20Marathi%20Natya%20Seva%20Sanstha.%20Could%20you%20please%20share%20the%20exact%20location%3F', '_blank')">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Get Directions
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <section class="join-us-section">
+        <div class="container">
+            <div class="join-us-content">
+                <div class="join-us-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2 data-key="joinUsTitle">Join Our Theatre Family</h2>
+                <p data-key="joinUsDescription">Are you passionate about Marathi theatre? Do you want to be part of our cultural mission? We welcome talented individuals who share our vision of preserving and promoting Marathi arts.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScjrQ_UnKMl3JkJldphTGxKCMnyXtb8wKyCiQWWLB9pP-Nd9Q/viewform?usp=header" class="btn-primary join-us-btn">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span data-key="applyNow">Apply Now</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-theater-masks"></i>
+                        <h3 data-key="navTitle">Asmita Marathi Natya Seva Sanstha</h3>
+                    </div>
+                    <p>मराठी नाट्य कला आणि सांस्कृतिक संवर्धनासाठी समर्पित</p>
+                    <p>नोंदणी क्रमांक: 07/33/01/18504/24</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="mainPages">मुख्य पाने</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="home">मुख्य</a></li>
+                        <li><a href="about.html" data-key="about">आमच्याबद्दल</a></li>
+                        <li><a href="events.html" data-key="events">कार्यक्रम</a></li>
+                        <li><a href="gallery.html" data-key="gallery">गॅलरी</a></li>
+                        <li><a href="contact.html" data-key="contact">संपर्क</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="footer-section">
+                    <h4 data-key="contactInfo">संपर्क माहिती</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 18 Sanwariya Parisar Nanakheda, near mahamrutyunjay dwar Ujjain, MP 456010</p>
+                        <p><i class="fas fa-phone"></i> +91 9424541498</p>
+                        <!-- <p><i class="fas fa-envelope"></i> asmita.natya@gmail.com</p> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-key="copyright">© 2024 Asmita Marathi Natya Seva Sanstha, Ujjain M.P. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://yashbiware.github.io/YashBiware-Freelacing/index.html" target="_blank" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
+                        Made with <span class="heart">❤️</span> by <span class="bucksss">Bucksss</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="page-transitions.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

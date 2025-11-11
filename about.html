@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-page-title-key="aboutTitle">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>परिचय - अस्मिता मराठी नाट्य सेवा संस्था</title>
+    <link rel="stylesheet" href="theatre-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span data-key="navTitle">Asmita Marathi Natya Seva Sanstha</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-key="home">मुख्य</a></li>
+                <li><a href="about.html" class="active" data-key="about">आमच्याबद्दल</a></li>
+                <li><a href="events.html" data-key="events">कार्यक्रम</a></li>
+                <li><a href="gallery.html" data-key="gallery">गॅलरी</a></li>
+                <li><a href="contact.html" data-key="contact">संपर्क</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn" onclick="switchLanguage('mr')" data-lang="mr">मराठी</button>
+                    <button class="lang-btn active" onclick="switchLanguage('en')" data-lang="en">English</button>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero page-section">
+        <div class="container">
+            <div class="hero-content-center">
+                <h1 data-key="aboutHeroTitle">आमच्याबद्दल</h1>
+                <p data-key="aboutHeroSubtitle">मराठी नाट्यकलेची समृद्ध परंपरा पुढे नेणे</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-detailed">
+        <div class="container">
+            <div class="about-cards">
+                <div class="about-card-large">
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 data-key="ourFoundation">Our Foundation</h3>
+                    <p data-key="foundationText">Founded two years ago, Asmita Marathi Natya Seva Sanstha was born out of a deep passion to preserve and promote the Marathi language among the new generation and the wider community. Realizing that Marathi art and theatre were gradually losing their audience, our founders created an organization dedicated to keeping the richness of our mother tongue alive through impactful acts, dramas, and performances.</p>
+                </div>
+                <div class="about-card-large">
+                    <div class="card-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3 data-key="ourApproach">Our Approach</h3>
+                    <p data-key="approachText">We focus on theatre, workshops, stage performances, and street plays — in festivals, functions, and on-demand events — using every possible medium to make Marathi language meaningful and engaging, especially for children and young audiences. Our reach spans school children, college students, theatre enthusiasts, rural communities, and Marathi-speaking audiences everywhere, fostering a strong connection to culture and heritage.</p>
+                </div>
+                <div class="about-card-large">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 data-key="ourImpact">Our Impact & Vision</h3>
+                    <p data-key="impactText">In just two years, we have performed in multiple cities, welcomed new actors into our fold, and ensured that both participants and the organization benefit sustainably. Beyond performances, we actively contribute to social awareness, nurturing talent, and spreading the love for Marathi theatre far and wide. Our vision is to preserve Marathi theatre and culture, expanding our reach across India to touch the hearts of all native Marathi speakers, ensuring that the beauty of our language and arts continues to inspire generations to come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <section id="founders" class="founders">
+        <div class="container">
+            <h2 data-key="ourFounders">Our Founders</h2>
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-photo girish-photo">
+                        <img src="geerish bhalerao.jpg" alt="Girish Bhalerao">
+                    </div>
+                    <h4>Mr. Girish Bhalerao</h4>
+                    <p data-key="president">President</p>
+                    <p class="founder-desc" data-key="girishDesc">Leading the organization with passion for Marathi theatre and cultural preservation.</p>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="SudhirKukde.jpg" alt="Sudhir Kukde">
+                    </div>
+                    <h4>Mr. Sudhir Kukde</h4>
+                    <p data-key="secretary">Secretary</p>
+                    <p class="founder-desc" data-key="sudheerDesc">Managing organizational activities and promoting theatre arts in the community.</p>
+                </div>
+                <!-- NEETA KUKDE CARD - COMMENTED OUT
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="NeetaKukde.jpg" alt="Neeta Kukde">
+                    </div>
+                    <h4>Mrs. Neeta Kukde</h4>
+                    <p data-key="member">Member</p>
+                    <p class="founder-desc" data-key="neetaDesc">Supporting cultural activities and women's participation in theatre arts.</p>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <section class="tribute-section">
+        <div class="container">
+            <h2 data-key="tributeTo">Tribute To</h2>
+            <div class="tribute-card">
+                <div class="tribute-photo">
+                    <img src="AparnaJoshi.jpg" alt="Arpana Joshi">
+                </div>
+                <h3>Late Dr. Aparna Joshi</h3>
+                <p class="tribute-location">Former Head of Marathi Department, Madhav College, Ujjain</p>
+                <p class="tribute-desc" data-key="arpanaDesc">The spirit of Late Dr. Aparna Joshi remains the guiding soul of our mission, though her voice still echoes in every rehearsal and performance of the Asmita Marathi Natya Seva Sanstha. Dr. Joshi, our beloved Former Head of the Marathi Department at Madhav College, Ujjain, shared her heart with us; she loved us deeply, treating us not as students but as her own, and inspired in us the passion for the greater good of society. That affection, that unwavering belief she placed in our potential, is what compels us to fight for the survival of Marathi arts today. It is with a heavy heart we remember the profound tragedy that she passed away just before she could witness her first directed drama take the stage. That unfulfilled dream, a testament to her lifelong passion for theatre, is now a sacred trust. Every play we stage, every workshop we organize, is our solemn promise to her: we will ensure that the beautiful cultural legacy she cherished, and the curtain she was tragically unable to raise, will now thrive in the hearts of a new generation. We are who we are because of the indelible love and inspiration she left with us.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-theater-masks"></i>
+                        <h3 data-key="navTitle">Asmita Marathi Natya Seva Sanstha</h3>
+                    </div>
+                    <p>मराठी नाट्य कला आणि सांस्कृतिक संवर्धनासाठी समर्पित</p>
+                    <p>नोंदणी क्रमांक: 07/33/01/18504/24</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="mainPages">मुख्य पाने</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="home">मुख्य</a></li>
+                        <li><a href="about.html" data-key="about">आमच्याबद्दल</a></li>
+                        <li><a href="events.html" data-key="events">कार्यक्रम</a></li>
+                        <li><a href="gallery.html" data-key="gallery">गॅलरी</a></li>
+                        <li><a href="contact.html" data-key="contact">संपर्क</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="footer-section">
+                    <h4 data-key="contactInfo">संपर्क माहिती</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 18 Sanwariya Parisar Nanakheda, near mahamrutyunjay dwar Ujjain, MP 456010</p>
+                        <p><i class="fas fa-phone"></i> +91 9424541498</p>
+                        <!-- <p><i class="fas fa-envelope"></i> asmita.natya@gmail.com</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p data-key="copyright">© 2024 Asmita Marathi Natya Seva Sanstha, Ujjain M.P. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://yashbiware.github.io/YashBiware-Freelacing/index.html" target="_blank" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
+                        Made with <span class="heart">❤️</span> by <span class="bucksss">Bucksss</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="lang.js"></script>    <script src="page-transitions.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

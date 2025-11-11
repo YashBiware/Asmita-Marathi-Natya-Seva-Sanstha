@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Asmitha Marathi Natya Seva Santha</title>
+    <link rel="stylesheet" href="theatre-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span data-key="navTitle">Asmita Marathi Natya Seva Sanstha</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-key="home">Home</a></li>
+                <li><a href="about.html" data-key="about">About Us</a></li>
+                <li><a href="events.html" data-key="events">Programs</a></li>
+                <li><a href="gallery.html" class="active" data-key="gallery">Gallery</a></li>
+                <li><a href="contact.html" data-key="contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn" onclick="switchLanguage('mr')" data-lang="mr">मराठी</button>
+                    <button class="lang-btn active" onclick="switchLanguage('en')" data-lang="en">English</button>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero page-section">
+        <div class="container">
+            <div class="hero-content-center">
+                <h1 data-key="programGallery">Program Gallery</h1>
+                <p data-key="gallerySubtitle">Glimpses of our memorable moments</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="gallery-page">
+        <div class="container">
+            <!-- Dhar August Section -->
+            <div class="gallery-section">
+                <h3 class="gallery-section-title" data-key="">Maitraban plot no. 200 - Dhar - August 2025</h3>
+                <div class="gallery-grid-masonry">
+                    <div class="gallery-item">
+                        <img src="dhar_aug_25_img_1.jpg" alt="Dhar Performance 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="dhar_aug_25_img_2.jpg" alt="Dhar Performance 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="dhar_aug_25_img_3.jpg" alt="Dhar Performance 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="dhar_aug_25_img_4.jpg" alt="Dhar Performance 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="dhar_aug_25_img_5.jpg" alt="Dhar Performance 5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ujjain September Section -->
+            <div class="gallery-section">
+                <h3 class="gallery-section-title" data-key="">Maitraban plot no. 200 - Ujjain - September 2025</h3>
+                <div class="gallery-grid-masonry">
+                    <div class="gallery-item">
+                        <img src="ujn_sep25_img_1.jpg" alt="Ujjain Performance 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="ujn_sep25_img_2.jpg" alt="Ujjain Performance 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="ujn_sep25_img_3.jpg" alt="Ujjain Performance 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="ujn_sep25_img_4.jpg" alt="Ujjain Performance 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="ujn_sep25_img_5.jpg" alt="Ujjain Performance 5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case No. 99 Dewas Section -->
+            <div class="gallery-section">
+                <h3 class="gallery-section-title">Case No. 99 - Dewas - September 2025</h3>
+                <div class="gallery-grid-masonry">
+                    <div class="gallery-item">
+                        <img src="caseNo99. sep2025 2.jpg" alt="Case No. 99 Dewas 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="caseNo99. sep2025 4.jpg" alt="Case No. 99 Dewas 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="caseNo99. sep2025 1.jpg" alt="Case No. 99 Dewas 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case No. 99 Ratlam Section -->
+            <div class="gallery-section">
+                <h3 class="gallery-section-title">Case No. 99 - Ratlam - September 2025</h3>
+                <div class="gallery-grid-masonry">
+                    <div class="gallery-item">
+                        <img src="caseNo99. sep 2025 3.jpg" alt="Case No. 99 Ratlam 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="caseNo99. sep2025 4.jpg" alt="Case No. 99 Ratlam 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- <section class="video-gallery">
+        <div class="container">
+            <h2 data-key="videoGallery">Video Gallery</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <i class="fas fa-play-circle"></i>
+                        <div class="video-overlay">
+                            <h4 data-key="sanskarPlay">Theatre Performance - "Sanskar"</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <i class="fas fa-play-circle"></i>
+                        <div class="video-overlay">
+                            <h4 data-key="actingWorkshop">Acting Workshop</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <i class="fas fa-play-circle"></i>
+                        <div class="video-overlay">
+                            <h4 data-key="culturalProgram">Cultural Program</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-theater-masks"></i>
+                        <h3>Asmitha Natya Santha</h3>
+                    </div>
+                    <p>Dedicated to Marathi theatre art and cultural preservation</p>
+                    <p>Registration No: 07/33/01/18504/24</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="mainPages">Main Pages</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="home">Home</a></li>
+                        <li><a href="about.html" data-key="about">About Us</a></li>
+                        <li><a href="events.html" data-key="events">Programs</a></li>
+                        <li><a href="gallery.html" data-key="gallery">Gallery</a></li>
+                        <li><a href="contact.html" data-key="contact">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="contactInfo">Contact Information</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 18 Sanwariya Parisar Nanakheda, near mahamrutyunjay dwar Ujjain, MP 456010</p>
+                        <p><i class="fas fa-phone"></i> +91 9424541498</p>
+                        <p><i class="fas fa-envelope"></i> asmita.natya@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-key="copyright">© 2024 Asmita Marathi Natya Seva Sanstha, Ujjain M.P. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://yashbiware.github.io/YashBiware-Freelacing/index.html" target="_blank" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
+                        Made with <span class="heart">❤️</span> by <span class="bucksss">Bucksss</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="page-transitions.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        }
+
+        // Image zoom functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const galleryItems = document.querySelectorAll('.gallery-item img');
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.querySelector('.close');
+
+            galleryItems.forEach(img => {
+                img.addEventListener('click', function() {
+                    modal.style.display = 'block';
+                    modalImg.src = this.src;
+                });
+            });
+
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

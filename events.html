@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Asmitha Marathi Natya Seva Santha</title>
+    <link rel="stylesheet" href="theatre-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVIGATION SECTION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span data-key="navTitle">Asmita Marathi Natya Seva Sanstha</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-key="home">Home</a></li>
+                <li><a href="about.html" data-key="about">About Us</a></li>
+                <li><a href="events.html" class="active" data-key="events">Programs</a></li>
+                <li><a href="gallery.html" data-key="gallery">Gallery</a></li>
+                <li><a href="contact.html" data-key="contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn" onclick="switchLanguage('mr')" data-lang="mr">मराठी</button>
+                    <button class="lang-btn active" onclick="switchLanguage('en')" data-lang="en">English</button>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="page-hero page-section">
+        <div class="container">
+            <div class="hero-content-center">
+                <h1 data-key="upcomingEvents">Upcoming Events</h1>
+                <p data-key="eventsSubtitle">Our latest theatre performances and cultural programs</p>
+                <h5 style="color: gray;">Great things are in the works! We'll announce our new lineup of events shortly.</h5>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- MAIN EVENTS SECTION
+    <section class="events-page">
+        <div class="container">
+            <div id="events-grid" class="events-grid">
+                <div class="event-card">
+                    <img src="dhar_aug_25_img_1.jpg" alt="Theatre Performance" style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px;">
+                    <div style="padding: 1.5rem;">
+                        <h3>Theatre Performance - "Sanskar"</h3>
+                        <p><i class="fas fa-calendar"></i> 15 January 2024 | Evening 7:00</p>
+                        <p><i class="fas fa-theater-masks"></i> Traditional Marathi Play</p>
+                        <p>A story about family values and cultural traditions</p>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <img src="ujn_sep25_img_1.jpg" alt="Workshop" style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px;">
+                    <div style="padding: 1.5rem;">
+                        <h3>Acting Workshop</h3>
+                        <p><i class="fas fa-calendar"></i> 28 January 2024 | Morning 10:00</p>
+                        <p><i class="fas fa-graduation-cap"></i> Theatre Training</p>
+                        <p>Learn traditional Marathi theatre techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ADDITIONAL EVENTS SECTION -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2 data-key=""> Events</h2>
+            <div id="events-grid" class="events-grid">
+                <div class="event-card">
+                    <img src="dhar_aug_25_img_2.jpg" alt="Theatre Performance">
+                    <div class="event-card-content">
+                        <h3>Theatre Performance -</h3>
+                        <h4>Miatraban Plot no. 200</h4>
+                        <p>30 August 2025| Evening 8:00</p>
+                        <p>Traditional Marathi Play</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img src="ujn_sep25_img_2.jpg" alt="Cultural Program">
+                    <div class="event-card-content">
+                        <h3>Theatre Performance -</h3>
+                        <h4>Miatraban Plot no. 200</h4>
+                        <p>1 September 2025 | Evening 8:00</p>
+                        <p>Traditional Marathi Play</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img src="caseNo99. sep2025 1.jpg" alt="Case No. 99 - Dewas" style="object-position: top;">
+                    <div class="event-card-content">
+                        <h3>Theatre Performance -</h3>
+                        <h4>"Case No. 99"</h4>
+                        <p>3 September 2025 | Evening 7:00 PM</p>
+                        <p>Marathi Play - Dewas</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img src="caseNo99. sep 2025 3.jpg" alt="Case No. 99 - Ratlam" style="object-position: top;">
+                    <div class="event-card-content">
+                        <h3>Theatre Performance -</h3>
+                        <h4>"Case No. 99"</h4>
+                        <p>5 September 2025 | Evening 7:00 PM</p>
+                        <p>Marathi Play - Ratlam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- EVENT CATEGORIES SECTION -->
+    <section class="event-categories">
+        <div class="container">
+            <h2 data-key="eventTypes">Event Types</h2>
+            <div class="category-grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-masks-theater"></i>
+                    </div>
+                    <h3 data-key="theatrePerformances">Theatre Performances</h3>
+                    <p data-key="theatreDesc">Traditional and modern Marathi plays</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-key="workshops">Workshops</h3>
+                    <p data-key="workshopDesc">Teaching acting and theatre techniques</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 data-key="festivalPrograms">Festival Programs</h3>
+                    <p data-key="festivalDesc">Cultural presentations on special occasions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-theater-masks"></i>
+                        <h3>Asmitha Natya Santha</h3>
+                    </div>
+                    <p>Dedicated to Marathi theatre art and cultural preservation</p>
+                    <p>Registration No: 07/33/01/18504/24</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="mainPages">Main Pages</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="home">Home</a></li>
+                        <li><a href="about.html" data-key="about">About Us</a></li>
+                        <li><a href="events.html" data-key="events">Programs</a></li>
+                        <li><a href="gallery.html" data-key="gallery">Gallery</a></li>
+                        <li><a href="contact.html" data-key="contact">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-key="contactInfo">Contact Information</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 18 Sanwariya Parisar Nanakheda, near mahamrutyunjay dwar Ujjain, MP 456010</p>
+                        <p><i class="fas fa-phone"></i> +91 9424541498</p>
+                        <p><i class="fas fa-envelope"></i> asmita.natya@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-key="copyright">© 2024 Asmita Marathi Natya Seva Sanstha, Ujjain M.P. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://yashbiware.github.io/YashBiware-Freelacing/index.html" target="_blank" style="color: var(--secondary); text-decoration: none; font-weight: 600;">
+                        Made with <span class="heart">❤️</span> by <span class="bucksss">Bucksss</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT SECTION -->
+    <script src="lang.js"></script>
+    <script src="page-transitions.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.hamburger').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
