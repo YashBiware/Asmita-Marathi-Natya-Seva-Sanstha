@@ -34,10 +34,6 @@ A modern, theatre-themed website for Asmita Marathi Natya Seva Sanstha with bili
    npm start
    ```
 
-3. **Access the Website**
-   - Main Website: http://localhost:3000
-   - Admin Panel: http://localhost:3000/admin
-
 ## 🎨 **Enhanced Design Features**
 
 ### **Modern Figma Elements:**
